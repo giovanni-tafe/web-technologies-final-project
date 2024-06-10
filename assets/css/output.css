@@ -1364,10 +1364,6 @@ video {
   gap: 1rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2449,8 +2445,8 @@ video {
   forced-color-adjust: none;
 }
 
-.show{
-  display: flex;
+*{
+  font-family: "Inter", sans-serif;
 }
 
 H1{
@@ -2521,29 +2517,12 @@ H2{
 }
 
 @media (min-width: 540px) {
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:gap-4 {
-    gap: 1rem;
-  }
-
-  .sm\:bg-sky-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(14 165 233 / var(--tw-bg-opacity));
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:order-2 {
-    order: 2;
-  }
-
   .md\:mt-4 {
     margin-top: 1rem;
   }
