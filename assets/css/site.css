@@ -5,3 +5,12 @@
 .show{
     display: flex;
 }
+
+H1{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+H2{
+    font-weight: 600;
+}
